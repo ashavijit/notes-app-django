@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "*"
+django-environ = "*"
+gunicorn = "*"
+whitenoise = "*"
+xhtml2pdf = "*"
+django-debug-toolbar = "*"
+psycopg2-binary = "*"
+pepipost = "*"
+django-redis-sessions = "*"
+celery = "*"
+django-celery-results = "*"
+django-redis = "*"
+django-extensions = "*"
+
+[dev-packages]
+ipython = "*"
+inotify = "*"
+black = "*"
+isort = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+dev-server = "python manage.py runserver --settings=simple_notes.test_settings"

@@ -1,0 +1,641 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-20 13:44+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: notes/forms.py:58
+msgid "Welcome to Simple Notes!"
+msgstr "Вітаю в Simple Notes!"
+
+#: notes/forms.py:71 notes/tasks.py:45
+#, python-brace-format
+msgid "Hey {username}!"
+msgstr "Привіт {username}!"
+
+#: notes/forms.py:72
+msgid "Thank you for signing up, just one more step... click on the link below in order to activate your account."
+msgstr "Дякую за реєстрацію, залишився тільки один крок... перейдіть за посиланням нижче щоб активувати ваш обіковий запис."
+
+#: notes/forms.py:74
+msgid "Activate Account"
+msgstr "Активувати обліковий запис"
+
+#: notes/forms.py:75
+msgid "Without an activated account you won't be able to use features like reminders or password reset."
+msgstr "Без активації вам не будуть доступні нагадування та скидування паролю."
+
+#: notes/models.py:65
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: notes/models.py:77
+msgid "Українська"
+msgstr ""
+
+#: notes/models.py:78
+msgid "English"
+msgstr "Англійська"
+
+#: notes/tasks.py:33
+#, python-brace-format
+msgid "Don't forget about {note_name} | Simple Notes Reminder"
+msgstr "Не забудьте про {note_name} | Simple Notes Reminder"
+
+#: notes/tasks.py:46
+#, python-brace-format
+msgid "You wanted to be reminded about {note_name}. Click on the link below in order to open it."
+msgstr "Ви хотіли отримати нагадування про {note_name}. Перейдіть за посиланням нижче, щоб переглянути нотатку."
+
+#: notes/tasks.py:49
+#, python-brace-format
+msgid "Open {note_name}"
+msgstr "Переглянути {note_name}"
+
+#: notes/templates/notes/account-verification-done.html:8
+msgctxt "Page title"
+msgid "Account Verification"
+msgstr "Підтвердження облікового запису"
+
+#: notes/templates/notes/account-verification-done.html:21
+msgctxt "Heading"
+msgid "Account Verified!"
+msgstr "Обліковий запис був успішно підтверджений!"
+
+#: notes/templates/notes/account-verification-done.html:23
+msgctxt "Link"
+msgid "Go Home"
+msgstr "На головну сторінку"
+
+#: notes/templates/notes/base.html:48
+msgctxt "Link's text"
+msgid "Home"
+msgstr "Головна сторінка"
+
+#: notes/templates/notes/base.html:49
+msgctxt "Link's text"
+msgid "Settings"
+msgstr "Налаштування"
+
+#: notes/templates/notes/base.html:51
+msgctxt "Link's text"
+msgid "Admin Panel"
+msgstr "Адмін панель"
+
+#: notes/templates/notes/base.html:53
+msgctxt "Link's text"
+msgid "Log out"
+msgstr "Вийти"
+
+#: notes/templates/notes/base.html:72
+msgctxt "List title"
+msgid "Notebooks"
+msgstr "Записники"
+
+#: notes/templates/notes/base.html:75
+msgctxt "Tooltip"
+msgid "New Notebook (Alt + Shift + N)"
+msgstr "Новий Записник (Alt + Shift + N)"
+
+#: notes/templates/notes/base.html:79
+msgctxt "Text on a button"
+msgid "Notebook"
+msgstr "Записник"
+
+#: notes/templates/notes/base.html:90 notes/templates/notes/base.html:112
+msgctxt "Tooltip on a badge"
+msgid "Amount of notes"
+msgstr "Кількість записів"
+
+#: notes/templates/notes/base.html:104 notes/templates/notes/base.html:119
+#: notes/templates/notes/base.html:136
+msgctxt "Empty list text"
+msgid "Empty"
+msgstr "Пусто"
+
+#: notes/templates/notes/base.html:124
+msgctxt "List title"
+msgid "Shared Notes"
+msgstr "Спільні Нотатки"
+
+#: notes/templates/notes/base.html:145 notes/templates/notes/base.html:179
+msgctxt "List title"
+msgid "Version Control"
+msgstr "Контроль Версій"
+
+#: notes/templates/notes/base.html:154 notes/templates/notes/base.html:188
+msgctxt "Input placeholder"
+msgid "Message (Optional)"
+msgstr "Замітка (Опціонально)"
+
+#: notes/templates/notes/base.html:162 notes/templates/notes/base.html:196
+msgctxt "Button"
+msgid "Save this version"
+msgstr "Зберегти цю версію"
+
+#: notes/templates/notes/base.html:162 notes/templates/notes/base.html:196
+msgctxt "Button"
+msgid "Add"
+msgstr "Додати"
+
+#: notes/templates/notes/base.html:165 notes/templates/notes/base.html:199
+msgctxt "Tooltip"
+msgid "View All Saved Versions"
+msgstr "Переглянути всі збережені версії"
+
+#: notes/templates/notes/base.html:227
+msgctxt "Heading of modal window"
+msgid "New Notebook"
+msgstr "Новий Записник"
+
+#: notes/templates/notes/base.html:234
+msgctxt "Label's text on create notebook modal window"
+msgid "Title"
+msgstr "Назва записника"
+
+#: notes/templates/notes/base.html:236
+msgctxt "Placeholder"
+msgid "My Lovely Notebook"
+msgstr "Назва"
+
+#: notes/templates/notes/base.html:244 notes/templates/notes/base.html:357
+msgctxt "Text on a button"
+msgid "Save"
+msgstr "Зберегти"
+
+#: notes/templates/notes/base.html:245 notes/templates/notes/base.html:274
+#: notes/templates/notes/base.html:358
+msgctxt "Text on a button"
+msgid "Cancel"
+msgstr "Відмінити"
+
+#: notes/templates/notes/base.html:256
+msgctxt "Heading of modal window"
+msgid "Edit Notebook"
+msgstr "Редагувати Записник"
+
+#: notes/templates/notes/base.html:263
+msgctxt "Label's text"
+msgid "Title"
+msgstr "Заголовок"
+
+#: notes/templates/notes/base.html:273
+msgctxt "Text on a button"
+msgid "Update"
+msgstr "Обновити"
+
+#: notes/templates/notes/base.html:286
+msgctxt "Heading of modal window"
+msgid "Settings"
+msgstr "Налаштування"
+
+#: notes/templates/notes/base.html:293 notes/templates/notes/log-in.html:12
+#: notes/templates/notes/sign-up.html:12
+msgctxt "Label"
+msgid "Username"
+msgstr "Псевдонім"
+
+#: notes/templates/notes/base.html:295 notes/templates/notes/log-in.html:14
+#: notes/templates/notes/sign-up.html:14
+msgctxt "Placeholder"
+msgid "Username"
+msgstr "Псевдонім"
+
+#: notes/templates/notes/base.html:306 notes/templates/notes/sign-up.html:25
+msgctxt "Label"
+msgid "Email"
+msgstr "Пошта"
+
+#: notes/templates/notes/base.html:308 notes/templates/notes/sign-up.html:27
+msgctxt "Placeholder"
+msgid "Email"
+msgstr "Пошта"
+
+#: notes/templates/notes/base.html:319
+msgctxt "Label"
+msgid "Language"
+msgstr "Мова"
+
+#: notes/templates/notes/base.html:338
+msgctxt "Label"
+msgid "Theme"
+msgstr "Тема"
+
+#: notes/templates/notes/create_note.html:4
+msgctxt "Page title"
+msgid "New Note"
+msgstr "Новий Нотаток"
+
+#: notes/templates/notes/create_note.html:13
+#: notes/templates/notes/edit-note.html:14
+msgctxt "Tooltip"
+msgid "Save"
+msgstr "Зберегти"
+
+#: notes/templates/notes/create_note.html:20
+#: notes/templates/notes/edit-note.html:42
+msgctxt "Tooltip"
+msgid "Go Back"
+msgstr "Назад"
+
+#: notes/templates/notes/create_note.html:48
+#: notes/templates/notes/create_note.html:70
+#: notes/templates/notes/edit-note.html:70
+#: notes/templates/notes/edit-note.html:113
+msgctxt "Placeholder"
+msgid "My Note's Title"
+msgstr "Назва"
+
+#: notes/templates/notes/create_note.html:52
+#: notes/templates/notes/edit-note.html:74
+msgctxt "Tooltip"
+msgid "Save (Alt + S)"
+msgstr "Зберегти (Alt + S)"
+
+#: notes/templates/notes/create_note.html:59
+#: notes/templates/notes/edit-note.html:102
+msgctxt "Tooltip"
+msgid "Go Back (Esc)"
+msgstr "Назад (Esc)"
+
+#: notes/templates/notes/create_note.html:74
+#: notes/templates/notes/edit-note.html:117
+msgctxt "Placeholder"
+msgid "Write something here."
+msgstr "Напишіть щось."
+
+#: notes/templates/notes/edit-note.html:21
+msgctxt "Tooltip"
+msgid "Remove"
+msgstr "Видалити"
+
+#: notes/templates/notes/edit-note.html:28
+msgctxt "Tooltip"
+msgid "Share"
+msgstr "Поділитись"
+
+#: notes/templates/notes/edit-note.html:35
+msgctxt "Tooltip"
+msgid "Export To PDF"
+msgstr "Експортувати до PDF"
+
+#: notes/templates/notes/edit-note.html:81
+msgctxt "Tooltip"
+msgid "Remove (Del)"
+msgstr "Видалити (Del)"
+
+#: notes/templates/notes/edit-note.html:88
+msgctxt "Tooltip"
+msgid "Share (Alt + Shift + S)"
+msgstr "Поділитись (Alt + Shift + S)"
+
+#: notes/templates/notes/edit-note.html:95
+msgctxt "Tooltip"
+msgid "Export To PDF (Alt + Shift + E)"
+msgstr "Експортувати як PDF (Alt + Shift + E)"
+
+#: notes/templates/notes/edit-note.html:127
+msgctxt "Tooltip"
+msgid "Cancel reminder"
+msgstr "Скасувати нагадування"
+
+#: notes/templates/notes/edit-note.html:127
+msgctxt "Link"
+msgid "Cancel Reminder"
+msgstr "Скасувати нагадування"
+
+#: notes/templates/notes/edit-note.html:129
+msgctxt "Tooltip"
+msgid "Send me a reminder to write later"
+msgstr "Надішліть мені нагадування"
+
+#: notes/templates/notes/edit-note.html:129
+msgctxt "Link"
+msgid "Remind Me"
+msgstr "Нагадати"
+
+#: notes/templates/notes/edit-note.html:151
+msgctxt "Button"
+msgid "Cancel"
+msgstr "Відмінити"
+
+#: notes/templates/notes/edit-note.html:152
+msgctxt "Button"
+msgid "OK"
+msgstr "OK"
+
+#: notes/templates/notes/home.html:4
+msgctxt "Page title"
+msgid "Home"
+msgstr "Головна сторінка"
+
+#: notes/templates/notes/home.html:8 notes/templates/notes/view-notes.html:35
+msgctxt "Heading"
+msgid "Nothing to show"
+msgstr "Тут нічого немає"
+
+#: notes/templates/notes/home.html:9
+msgctxt "sub heading"
+msgid "Create or Open a note to view it here."
+msgstr "Створіть або Відкрийте нотаток щоб побачити його тут."
+
+#: notes/templates/notes/index.html:29
+msgctxt "Link's text in navbar"
+msgid "Log in"
+msgstr "Авторизуватись"
+
+#: notes/templates/notes/index.html:32
+msgctxt "Link's text in navbar"
+msgid "Create an account"
+msgstr "Створити обліковий запис"
+
+#: notes/templates/notes/index.html:43
+msgid "A simple way of saving your thoughts & ideas for the future"
+msgstr "Простий спосіб зберігання ідей та інформації."
+
+#: notes/templates/notes/index.html:44
+msgctxt "Text on a button"
+msgid "Get Started"
+msgstr "Розпочати"
+
+#: notes/templates/notes/index.html:46
+msgctxt "Small text with a link on the front page."
+msgid "Simple Notes offered in: <a class='has-text-info' href='/uk'>Українська</a>"
+msgstr "Simple Notes доступний на таких мовах: <a class='has-text-info' href='/en'>English</a>"
+
+#: notes/templates/notes/index.html:55
+msgctxt "Heading"
+msgid "Organize your notes"
+msgstr "Структуруйте інформацію"
+
+#: notes/templates/notes/index.html:56
+msgid "Never get lost, organize your notes by notebooks with ease"
+msgstr "Розподілюйте свої записи по записникам для зручнішого доступу до інформації"
+
+#: notes/templates/notes/index.html:72
+msgctxt "Heading"
+msgid "It's Free"
+msgstr "Це безкоштовно"
+
+#: notes/templates/notes/index.html:73
+msgid "No ads, no pro versions, it's completely free!"
+msgstr "Без реклами та SMS!"
+
+#: notes/templates/notes/index.html:89
+msgctxt "Heading"
+msgid "Your notes are safe with us"
+msgstr "Ваші записи в безпеці з нами"
+
+#: notes/templates/notes/index.html:90
+msgid "No one is able to see your notes, except of us :)"
+msgstr "Ніхто не може бачити ваші записи, крім нас :)"
+
+#: notes/templates/notes/index.html:106
+msgctxt "Heading"
+msgid "Dark Theme"
+msgstr "Темна тема"
+
+#: notes/templates/notes/index.html:107
+msgid "Work at any time of the day, even at night with our dark theme"
+msgstr "Працюйте в будь який час дня, навіть вночі за допомогою темної теми"
+
+#: notes/templates/notes/index.html:123
+msgctxt "Heading"
+msgid "Let's get started"
+msgstr "Розпочнімо"
+
+#: notes/templates/notes/index.html:124
+msgid "Do not hesitate, start using <strong>Simple Notes</strong> right now!"
+msgstr "Не зволікайте, розпочніть використовувати <strong>Simple Notes</strong> прямо зараз!"
+
+#: notes/templates/notes/index.html:125 notes/templates/notes/sign-up.html:49
+msgctxt "Text on a button"
+msgid "Create an account"
+msgstr "Створити обліковий запис"
+
+#: notes/templates/notes/log-in.html:4
+msgctxt "Page title on login page"
+msgid "Log in"
+msgstr "Авторизуватись"
+
+#: notes/templates/notes/log-in.html:7
+msgctxt "Heading"
+msgid "Log In"
+msgstr "Авторизуватись"
+
+#: notes/templates/notes/log-in.html:22 notes/templates/notes/sign-up.html:35
+msgctxt "Label"
+msgid "Password"
+msgstr "Пароль"
+
+#: notes/templates/notes/log-in.html:24 notes/templates/notes/sign-up.html:37
+msgctxt "Placeholder"
+msgid "Password"
+msgstr "Пароль"
+
+#: notes/templates/notes/log-in.html:37
+msgctxt "Error message"
+msgid "Please enter a correct username and password."
+msgstr "Будь ласка, введіть правильний псевдонім чи пароль."
+
+#: notes/templates/notes/log-in.html:43
+msgid "if you're not a member"
+msgstr "Якщо ви ще не зареєстровані"
+
+#: notes/templates/notes/log-in.html:43
+msgctxt "Link's text"
+msgid "Sign up"
+msgstr "Зареєструватись"
+
+#: notes/templates/notes/note-versions-list.html:11
+#: notes/templates/notes/note-versions-list.html:47
+msgctxt "Label"
+msgid "Start"
+msgstr "Початок"
+
+#: notes/templates/notes/note-versions-list.html:23
+#: notes/templates/notes/note-versions-list.html:59
+msgctxt "Link"
+msgid "View"
+msgstr "Переглянути"
+
+#: notes/templates/notes/note-versions-list.html:23
+#: notes/templates/notes/note-versions-list.html:59
+msgctxt "Link"
+msgid "Remove"
+msgstr "Видалити"
+
+#: notes/templates/notes/note-versions-list.html:23
+#: notes/templates/notes/note-versions-list.html:59
+msgctxt "Link"
+msgid "Restore"
+msgstr "Відновити"
+
+#: notes/templates/notes/note-versions-list.html:30
+#: notes/templates/notes/note-versions-list.html:66
+msgctxt "Label"
+msgid "End"
+msgstr "Кінець"
+
+#: notes/templates/notes/note-versions-list.html:35
+#: notes/templates/notes/note-versions-list.html:71
+msgid "There's no versions yet"
+msgstr "Немає збережених версій"
+
+#: notes/templates/notes/note-versions-list.html:36
+#: notes/templates/notes/note-versions-list.html:72
+msgid "Press <b>Add</b> button in order to add a new version."
+msgstr "Натисніть кнопку <b>Додати</b>, щоб додати нову версію"
+
+#: notes/templates/notes/sign-up.html:4
+msgctxt "Page's title"
+msgid "Sign up"
+msgstr "Зареєструватись"
+
+#: notes/templates/notes/sign-up.html:7
+msgctxt "Heading"
+msgid "Sign Up"
+msgstr "Зареєструватись"
+
+#: notes/templates/notes/sign-up.html:54
+msgid "If you already have an account"
+msgstr "Якщо ви вже зареєстровані"
+
+#: notes/templates/notes/sign-up.html:54
+msgctxt "Link's text"
+msgid "Log in"
+msgstr "Авторизуватись"
+
+#: notes/templates/notes/view-note-version.html:21
+#: notes/templates/notes/view-shared-note.html:41
+msgid "The author didn't even left a single word for you!"
+msgstr "Тут пусто, тому що автор цієї нотатки нічого не написав!"
+
+#: notes/templates/notes/view-notes.html:4
+msgctxt "Page's title"
+msgid "Notes"
+msgstr "Нотатки"
+
+#: notes/templates/notes/view-notes.html:11
+msgctxt "Tooltip"
+msgid "New Note (Alt + N)"
+msgstr "Новий Нотаток (Alt + N)"
+
+#: notes/templates/notes/view-notes.html:18
+msgctxt "Tooltip"
+msgid "Remove Notebook (Del)"
+msgstr "Видалити Записник (Del)"
+
+#: notes/templates/notes/view-notes.html:25
+msgctxt "Tooltip"
+msgid "Edit Notebook (Alt + E)"
+msgstr "Редагувати Записник (Alt + E)"
+
+#: notes/templates/notes/view-notes.html:36
+msgctxt "Sub heading"
+msgid "Create or Open a note to view it here."
+msgstr "Створіть або Відкрийте нотаток щоб побачити його тут."
+
+#: notes/templates/notes/view-shared-note.html:14
+msgctxt "Tooltip"
+msgid "Stop Sharing (Del)"
+msgstr "Видалити з розданих (Del)"
+
+#: notes/views.py:41
+#, python-brace-format
+msgid "Public link for {note_title} was created successfully."
+msgstr "Замітка {note_title} стала публічною."
+
+#: notes/views.py:56
+#, python-brace-format
+msgid "{notebook_title} was removed successfully."
+msgstr "{notebook_title} був успішно видалений."
+
+#: notes/views.py:68
+#, python-brace-format
+msgid "{note_title} was removed successfully."
+msgstr "{note_title} був успішно видалений."
+
+#: notes/views.py:77
+msgid "Shared note was removed successfully."
+msgstr "Нотаток був успішно видалиний зі списку публічних."
+
+#: notes/views.py:93
+#, python-brace-format
+msgid "Changes in {notebook_title} were saved successfully."
+msgstr "Зміни в {notebook_title} були успішно збережені"
+
+#: notes/views.py:98
+msgid "Check your input!"
+msgstr "Перевірте вірність введених даних!"
+
+#: notes/views.py:126
+#, python-brace-format
+msgid "Changes in {note_title} were saved successfully."
+msgstr "Зміни в {note_title} були успішно збережені."
+
+#: notes/views.py:130 notes/views.py:234
+msgid "The title field should NOT be empty!"
+msgstr "Назва не повинна бути пустою!"
+
+#: notes/views.py:170
+msgid "Your settings were saved successfully."
+msgstr "Налаштування були успішно збережені."
+
+#: notes/views.py:223
+msgid "A note with such name already exists!"
+msgstr "Нотаток з цією назвою вже існує!"
+
+#: notes/views.py:225
+msgid "notes/create_note.html"
+msgstr ""
+
+#: notes/views.py:230
+#, python-brace-format
+msgid "{note_title} was created successfully."
+msgstr "{note_title} був успішно збережений."
+
+#: notes/views.py:253
+msgid "Notebook with this name already exists!"
+msgstr "Записник з цією назвою вже існує!"
+
+#: notes/views.py:260
+#, python-brace-format
+msgid "{notebook_title} was created successfully."
+msgstr "{notebook_title} був успішно створений."
+
+#: notes/views.py:412
+msgid "Reminder was set successfully!"
+msgstr "Нагадування було встановленно успішно."
+
+#: notes/views.py:423
+msgid "Reminder was canceled successfully!"
+msgstr "Нагадування було відмінено успішно."
+
+#: notes/views.py:451
+msgid "Version was added successfully."
+msgstr "Версію нотатка було додано успішно."
+
+#: notes/views.py:462
+msgid "Version was removed successfully."
+msgstr "Версію нотатка було успішно видалено."
+
+#: notes/views.py:479
+msgid "Version was restored successfully."
+msgstr "Версію нотатка було успешіно відновлено."

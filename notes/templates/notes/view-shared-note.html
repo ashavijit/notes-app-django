@@ -1,0 +1,57 @@
+{% extends 'notes/base.html' %}
+{% load i18n %}
+
+{% block title %}{{ shared_note.note.title }} | Simple Notes{% endblock %}
+
+{% block content %}
+    {% if user.is_authenticated and user == shared_note.user %}
+        <div class="columns">
+            <section class="block column is-11">
+                <h1 class="title has-text-centered">{{ shared_note.note.title }}</h1>
+            </section>
+            <div class="column">
+                <div class="buttons is-right">
+                    <a class="button px-5" href="{% url 'notes:remove-shared-note' shared_note.unique_secret %}" title="{% translate "Stop Sharing (Del)" context "Tooltip" %}">
+                        <span class="icon is-small">
+                            <i class="fas fa-trash-alt"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    
+    {% if shared_note.note.content %}
+        <article>
+            {% if not user.is_authenticated or user != shared_note.user %}
+                <section class="block">
+                    <h1 class="title has-text-centered">{{ shared_note.note.title }}</h1>
+                </section>
+            {% endif %}
+            <section class="content">
+                {{ shared_note.note.content }}
+            </section>
+        </article>
+    {% else %}
+        {% load static %}
+        <article class="block has-text-centered">
+            {% if not user.is_authenticated %}
+                <h1 class="title">{{ shared_note.note.title }}</h1>
+            {% endif %}
+            <p class="subtitle">{% translate "The author didn't even left a single word for you!" %}</p>
+            <figure style="margin: 0 auto; width: 35vw;" class="image is-128x128">
+                <img src="{% static 'images/not_found.svg' %}">
+            </figure>
+        </article>
+    {% endif %}
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            keyboardJS.bind('del', (e) => {
+                e.preventDefault();
+
+                window.open("{% url 'notes:remove-shared-note' shared_note.unique_secret %}", "_self");
+            });
+        });
+    </script>
+{% endblock %}
